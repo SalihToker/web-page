@@ -1,1 +1,1 @@
-This is my web page that includes my skills, education, experienxe and projects.
+This is my web page that includes my skills, education, experiences and projects.
