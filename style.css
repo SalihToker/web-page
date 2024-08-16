@@ -214,7 +214,7 @@ span{
     height: 100%;
     border-left: 3px solid black;
     right: -8;
-    animation: cursor 0.4s infinite;
+    animation: cursor 1s infinite;
 }
 
 @keyframes cursor{
