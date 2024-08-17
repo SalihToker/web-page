@@ -287,7 +287,6 @@ span{
     }
 
     .home{
-        padding: 0;
         flex-direction: column;
         margin: 3rem 2rem;
         height: fit-content;
