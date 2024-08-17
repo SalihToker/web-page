@@ -66,8 +66,8 @@ nav a.active{
 @media(max-width:995px){
     nav{
         position: absolute;
-        display: none;
-        top: 0;
+        display: block;
+        top: 100%;
         right: 0;
         width: 40%;
         border-left: 3px solid #b74b4b;
@@ -269,6 +269,43 @@ span{
     font-size: 5rem;
 }
 
+
+
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-column {
+    width: 49.5%; /* Sütun genişliğini ayarlar */
+    padding: 10px; /* İçerik boşluğunu ayarlar */
+    border: 1px solid #ddd; /* Kenarlık ekler */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge ekler */
+    text-align: center;
+    border-radius: 3rem;
+    border: 2px solid #b74b4b;
+}
+
+.about-container h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #b74b4b;
+}
+
+.about-container h3{
+    font-size: 17px;
+}
+
+ul {
+    list-style-type: none; /* Liste işaretlerini kaldırır */
+    padding-left: 0;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 15px; /* Liste öğeleri arasındaki boşluk */
+}
 
 
 
