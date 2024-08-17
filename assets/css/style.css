@@ -267,20 +267,30 @@ span{
 }
 
 @media (max-width: 995px){
+    body{
+        width: fit-content;
+        overflow-x: hidden;
+        flex-direction: column;
+    }
 
+    header{
+        justify-content: space-between;
+        position: absolute;
+        margin-right: 0;
+    }
     .menu-toggle {
         font-size: 4rem;
+        position: static;
     }
     
     section{
-        min-width: 5vh;
-        padding: 5rem 9% 5rem;
+        min-width: 0vh;
     }
 
     .home{
         padding: 0;
         flex-direction: column;
-        margin: 5rem 4rem;
+        margin: 3rem 2rem;
         height: fit-content;
         width: fit-content;
         right: 0;
