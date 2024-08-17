@@ -51,7 +51,7 @@ header{
 nav a{
     font-size: 1.8rem;
     color: white;
-    margin-left: 4rem;
+    margin-left: 3rem;
     font-weight: 500;
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
@@ -63,10 +63,22 @@ nav a.active{
     border-bottom: 3px solid #b74b4b;
 }
 
+.menu-toggle {
+    display: none; /* Başlangıçta düğmeyi gizle */
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 2.5rem;
+    color: white;
+    cursor: pointer;
+}
+
 @media(max-width:995px){
     nav{
         position: absolute;
-        display: block;
+        display: none;
         top: 100%;
         right: 0;
         width: 40%;
@@ -93,6 +105,10 @@ nav a.active{
         padding: 1rem;
         border-radius: 0.5rem;
         border-bottom: 0.5rem solid #b74b4b;
+    }
+
+    .menu-toggle {
+        display: block; /* Mobilde düğmeyi göster */
     }
 }
 
@@ -260,7 +276,7 @@ span{
         font-size: 2.5rem;
     }
     .home-img img{
-        width: 70vw;
+        width: 60vw;
         margin: 4rem;
     }
 }
@@ -326,6 +342,7 @@ li {
     width: 100%; /* Resmi kapsayıcıya göre ölçeklendirir */
     height: auto; /* Oranları korur */
     border: 2px solid #b74b4b; /* Resimlere kenarlık ekler */
+    border-radius: 1rem;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge ekler */
 }
 
