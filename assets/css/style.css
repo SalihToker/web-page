@@ -308,3 +308,31 @@ li {
 
 
 
+
+
+.sketches-container {
+    display: flex;
+    flex-wrap: wrap; /* İçeriği sarar ve bir sonraki satıra geçer */
+    gap: 20px; /* Öğeler arasındaki boşluk */
+    justify-content: center; /* İçeriği ortalar */
+}
+
+.sketch-item {
+    width: 450px; /* Resimlerin genişliği */
+    text-align: center; /* Alt açıklamayı ortalar */
+}
+
+.sketch-item img {
+    width: 100%; /* Resmi kapsayıcıya göre ölçeklendirir */
+    height: auto; /* Oranları korur */
+    border: 2px solid #b74b4b; /* Resimlere kenarlık ekler */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge ekler */
+}
+
+.sketch-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #b74b4b;
+}
+
+
