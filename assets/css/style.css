@@ -273,11 +273,12 @@ span{
     }
     
     section{
-        min-width: 10vh;
+        min-width: 5vh;
         padding: 5rem 9% 5rem;
     }
 
     .home{
+        padding: 0;
         flex-direction: column;
         margin: 5rem 4rem;
         height: fit-content;
