@@ -85,7 +85,7 @@ nav a.active{
         border-left: 3px solid #b74b4b;
         border-bottom: 3px solid #b74b4b;
         border-bottom-left-radius: 2rem;
-        padding: 1rem solid;
+        padding: 1.5rem 1rem;
         background-color: #161616;
         border-top: 0.1rem solid rgba(0,0,0,0.1);
     }
@@ -267,9 +267,22 @@ span{
 }
 
 @media (max-width: 995px){
+
+    .menu-toggle {
+        font-size: 4rem;
+    }
+    
+    section{
+        min-width: 10vh;
+        padding: 5rem 9% 5rem;
+    }
+
     .home{
         flex-direction: column;
         margin: 5rem 4rem;
+        height: fit-content;
+        width: fit-content;
+        right: 0;
     }
 
     .home .home-content h3{
