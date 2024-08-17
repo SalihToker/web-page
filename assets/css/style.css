@@ -279,8 +279,7 @@ span{
         margin-right: 0;
     }
     .menu-toggle {
-        font-size: 4rem;
-        position: static;
+        position: absolute;
     }
     
     section{
@@ -294,6 +293,7 @@ span{
         height: fit-content;
         width: fit-content;
         right: 0;
+        padding-bottom: 10vw;
     }
 
     .home .home-content h3{
@@ -302,6 +302,7 @@ span{
     .home-img img{
         width: 60vw;
         margin: 4rem;
+        margin-top: 15vw;
     }
 }
 
