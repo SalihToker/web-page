@@ -376,6 +376,17 @@ li {
     color: #b74b4b;
 }
 
+@media (max-width: 995px){
+    .sketches-container {
+        width: fit-content;
+        flex-direction: column
+    }
+
+    .sketch-item{
+        width: fit-content;
+    }
+    
+}
 
 
 .table-striped{
